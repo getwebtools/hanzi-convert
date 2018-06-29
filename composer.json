@@ -1,0 +1,16 @@
+{
+  "name": "sqhlib/hanziConvert",
+  "description": "PHP中文繁简体字转换程序，支持繁体转简体或简体转繁体",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "sqh"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "sqhlib\\Hanzi\\": "src/Hanzi"
+    }
+  }
+}
