@@ -10,7 +10,7 @@
   "require": {},
   "autoload": {
     "psr-4": {
-      "sqhlib\\Hanzi\\": "src/Hanzi"
+      "sqhlib\\Hanzi\\": "src"
     }
   }
 }
