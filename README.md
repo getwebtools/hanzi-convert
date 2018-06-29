@@ -18,11 +18,11 @@ use sqhlib\Hanzi\HanziConvert;
 
 //繁体转简体
 $str = '平時已秉班揚筆，暇處不妨甘石經。吾里忻傳日邊信，君言頻中斗杓星。會稽夫子餘詩禮，巴蜀君平舊典型。歷歷周天三百度，更參璿玉到虞廷。';
-echo HanziConvert::convert($str);
+echo HanziConvert::convert($str);//默认是繁体转简体
 
 //简体转繁体
 $str = '平时已秉班扬笔，暇处不妨甘石经。吾里忻传日边信，君言频中斗杓星。会稽夫子余诗礼，巴蜀君平旧典型。歷歷周天三百度，更参璇玉到虞廷。';
-echo HanziConvert::convert($str,1);
+echo HanziConvert::convert($str,true);//第二个参数传入布尔真则是简体转繁体
 
 ```
 
